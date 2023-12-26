@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class 19 tailwind css</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+
+     <!-- ================= header section start here =================== -->
+
+    <header class="bg-header py-4">
+        <div class="max-w-container mx-auto px-3 md:px-5">
+
+            <div class="flex-col flex md:flex-row items-center justify-between">
+                <div class="flex-col flex md:flex-row items-center gap-[27px] ">
+                    <div class="text-color relative">
+                        <i class="fa-regular fa-envelope text-[20px]"></i> 
+                        <a href="#" class="ml-[5px] text-header-font relative md:after:absolute md:after:content[' '] md:after:w-[2px] md:after:h-[25px] md:after:bg-[#5C6A92] md:after:right-[-10%] md:after:top-[50%] md:after:translate-y-[-50%] ">mail@yourcompany.com</a>
+                    </div>
+                    <div class="text-color mt-[5px] md:mt-[0]">
+                        <i class="fa-solid fa-phone text-[20px]"></i>
+                        <a href="#" class="ml-[5px] text-header-font" > +896 120 5889 (Toll free)</a>
+                    </div>
+                </div>
+                <div class="text-color mt-[20px] md:mt-[0]">
+                    <i class="fa-brands fa-facebook text-[20px]  ml-[19px]"></i>
+                    <i class="fa-brands fa-twitter text-[20px]   ml-[19px]"></i>
+                    <i class="fa-brands fa-linkedin text-[20px]  ml-[19px]"></i>
+                    <i class="fa-brands fa-instagram text-[20px] ml-[19px]"></i>
+                </div>
+            </div>
+       </div>
+    </header>
+     <!-- ================= header section end here =================== -->
+
+     <!-- ================= navbar section start here =================== -->
+     <nav class="bg-navbar py-[20px] md:py-[27px]">
+       <div class="max-w-container mx-auto">
+           <div class="flex justify-between items-center px-[20px]">
+               <div class="logo">
+                   <img class="w-[120px] md:w-[190px]" src="./images/Logo.png" alt="Not Found">
+               </div>
+                 
+               <div class="hidden md:block">
+                   <ul class="flex gap-x-[47px]">
+                      <li><a class="text-[16px] font-semibold text-color" href="#">Home</a></li>
+                      <li><a class="text-[16px] font-semibold text-color" href="#">About</a></li>
+                      <li><a class="text-[16px] font-semibold text-color" href="#">Service</a></li>
+                      <li><a class="text-[16px] font-semibold text-color" href="#">Gallery</a></li>
+                      
+                   </ul>
+               </div>
+
+               <div class="nav_btn hidden md:block">
+                  <a href="#" class="border-2 border-color-500 py-[14px] px-[31px] rounded-[8px] text-color text-[16px] font-semibold">Contact US</a>
+               </div>
+               <div class=" block md:hidden">
+                 <i class="fa-solid fa-bars text-[26px] text-color"></i>
+               </div>
+           </div>
+       </div>
+     </nav>
+     <!-- ================= navbar section end here =================== -->
+
+     <!-- ================= banner section start here =================== -->
+
+     <section class="bg-bannerbg py-[170px] md:py-[258px]">
+       
+        <div class="max-w-container mx-auto">
+            <div class="px-[10px] md:px-[10px]">
+                <h1 class=" text-[30px] md:w-[842px] md:text-[64px] text-color font-bold mb-[31px]">We exist since 1975 on the oil and gas industry.</h1>
+                <div class="banner_btn">
+                    <a href="#" class="border-2 border-color-500 py-[14px] px-[31px] rounded-[8px] text-color text-[16px] font-semibold font-poppins hover:bg-[#F40404] hover:text-color transition-all duration-300">Contact US</a>
+                </div>
+            </div>
+        </div>
+     </section>
+     <!-- ================= banner section end here =================== -->
+
+
+     <!-- ================= about section start here =================== -->
+
+    <section class="pt-[78px] pb-[100px]">
+        <div class="max-w-container mx-auto">
+            <div class="flex flex-col md:flex-row gap-y-[80px] md:gap-x-[196px] items-center">
+                <div class="px-4 md:px-0">
+                    <h1 class=" md:w-[289px] text-[30px] md:text-[48px] font-bold">The biggest
+                        supplier on
+                        the country</h1>
+                </div>
+                <div class="px-4 md:px-0">
+                    <p class=" md:w-[400px] text-justify md:w-[651px] text-[16px] font-medium	font-poppins leading-[24px]">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution.</p>
+                </div>
+            </div>
+        </div>  
+    </section>
+     <!-- ================= about section end here =================== -->
+
+
+     <!-- ================= gallery section start here =================== -->
+
+     <section class="pb-[28px]">
+         
+        <div class="flex gap-x-[30px] items-center ">
+            <div class="gallery_img">
+                <img class="rounded-[10px]" src="./images/gallery_1.jpg" alt="Not found">
+            </div>
+            <div class="gallery_img">
+                <img class="rounded-[10px]" src="./images/gallery_1.jpg" alt="Not found">
+            </div>
+            <div class="gallery_img">
+                <img class="rounded-[10px]" src="./images/gallery_1.jpg" alt="Not found">
+            </div>
+            <div class="gallery_img">
+                <img class="rounded-[10px]" src="./images/gallery_1.jpg" alt="Not found">
+            </div>
+        </div>
+     </section>
+     <!-- ================= gallery section end here =================== -->
+
+
+     <!-- ================= service section start here =================== -->
+
+     <div class="bg-color py-4">
+             <div class="flex flex-col lg:flex-row items-center gap-y-[20px] md:gap-x-[64px]">
+                <div class=" md:ml-[200px] px-4">
+                    <h1 class=" md:w-[509px] font-bold text-[30px] md:text-[64px] font-poppins">Our Services</h1>
+                    <p class=" md:w-[405px] text-[16px] font-medium text-[#6C6C6C] text-justify">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                </div>
+                <div class=" w-[580px] sm:w-[800px] md:w-[960px] h-[310px] object-cover bg-servicebg px-[30px] md:px-[70px] relative">
+                    <h1 class="absolute top-[50%] translate-y-[-50%] px-3  text-color  md:w-[701px] text-[28px] font-semibold leading-[54px] hidden md:block">Modern natural oil and gas refineries.</h1>
+                    <a href="#" class="bg-navbar mt-[55px] px-[30px] py-[14px] text-[16px] font-semibold text-color absolute top-[50%] translate-y-[-50%] hover:bg-color transition-all duration-300 hover:text-[#000] hidden md:block">Learn More</a>
+                </div>
+             </div>
+
+            <div class="flex items-center ">
+               <div class="w-[960px] h-[310px] object-cover bg-servicebg2 px-[70px]  relative">
+                   <h1 class="absolute top-[50%] translate-y-[-50%]  text-color  w-[701px] text-[28px] font-semibold leading-[54px] hidden md:block ">Modern natural oil and gas refineries.</h1>
+                   <a href="#" class="bg-navbar mt-[55px] px-[30px] py-[14px] text-[16px] font-semibold text-color absolute top-[50%] translate-y-[-50%] hover:bg-color transition-all duration-300 hover:text-[#000] hidden md:block ">Learn More</a>
+               </div>
+               <div class="w-[960px] h-[310px] object-cover bg-servicebg3 px-[70px] relative">
+                   <h1 class="absolute top-[50%] translate-y-[-50%]  text-color  w-[701px] text-[28px] font-semibold leading-[54px] hidden md:block ">Modern natural oil and gas refineries.</h1>
+                   <a href="#" class="bg-navbar mt-[55px] px-[30px] py-[14px] text-[16px] font-semibold text-color absolute top-[50%] translate-y-[-50%] hover:bg-color transition-all duration-300 hover:text-[#000] hidden md:block">Learn More</a>
+               </div>
+            </div>
+     </div>
+     <!-- ================= service section end here =================== -->
+
+
+     <!-- ================= company section start here =================== -->
+     <section class="bg-[#F0F0F0] py-[136px]">
+        <div class="max-w-container mx-auto">
+            <div>
+                <div class="flex flex-col px-[10px] md:px-0 md:flex-row items-center">
+                    <div class="bg-navbar py-[100px] px-[77px] relative">
+                        <h1 class="w-[262px] text-[36px] font-bold leading-[54px] text-color">Learn more about our company</h1>
+                    </div>
+                    <div class=" md:w-[726px] md:h-[361px] relative">
+                        <img class=" w-[425px] h-[325px] sm:w-[90%] md:w-[100%] md:h-[100%]  object-cover" src="./images/company.png" alt="Not Found">
+                     <a href="#" class="absolute left-[50%] top-[50%] translate-y-[-50%] md:top-[50%] md:translate-y-[-50%] translate-x-[-50%] bg-navbar text-color text-[16px] font-semibold hover:bg-color hover:text-[#000] transition-all duration-300 py-[13px] px-[30px]">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </section>
+     <!-- ================= company section end here =================== -->
+
+    
+     <!-- ================= Logo section start here =================== -->
+     <section class="bg-color py-[142px]">
+        <div class="max-w-container mx-auto">
+             <div class="flex flex-col md:flex-row ml-[20%] md:ml-0 gap-x-[26px]">
+                <div class="w-[265px] h-[94px]">
+                    <img class="w-[100%] h-[100%] object-cover" src="./images/Logo1.png" alt="Not FOund">
+                </div>
+                <div class="w-[265px] h-[94px]">
+                    <img class="w-[100%] h-[100%] object-cover" src="./images/Logo2.png" alt="Not FOund">
+                </div>
+                <div class="w-[265px] h-[94px]">
+                    <img class="w-[100%] h-[100%] object-cover" src="./images/Logo3.png" alt="Not FOund">
+                </div>
+                <div class="w-[265px] h-[94px]">
+                    <img class="w-[100%] h-[100%] object-cover" src="./images/Logo4.png" alt="Not FOund">
+                </div>
+             </div>
+        </div>
+
+     </section>
+     <!-- ================= Logo section end here =================== -->
+
+
+    <!-- ================= blog section start here =================== -->
+    <section class="bg-[#F0F0F0] pt-[110px] pb-[168px]">
+        <div class="max-w-container mx-auto">
+             <div class="flex flex-col md:flex-row ml-[10%] md:ml-0 gap-y-[20px] md:gap-x-[62px]">
+                <div class=" w-[339px] h-[401px] bg-blogbg pt-[75px] px-[44px] pb-[55px] relative">
+                    <h1 class="absolute w-[249px] text-[24px] font-bold leading-[36px] text-color text-justify">lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod.</h1>
+                    <a href="#" class="absolute top-[60%] bg-[#FFFFFF80] text-color text-[16px] font-semibold transition-all duration-300 py-[13px] px-[30px]">Learn More</a>
+                </div>
+
+                <div class=" w-[339px] h-[401px] bg-blogbg2 pt-[75px] px-[44px] pb-[55px] relative">
+                    <h1 class="absolute w-[249px] text-[24px] font-bold leading-[36px] text-color text-justify">lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod.</h1>
+                    <a href="#" class="absolute top-[60%] bg-[#FFFFFF80] text-color text-[16px] font-semibold transition-all duration-300 py-[13px] px-[30px]">Learn More</a>
+                </div>
+
+                <div class=" w-[339px] h-[401px] bg-blogbg3 pt-[75px] px-[44px] pb-[55px] relative">
+                    <h1 class="absolute w-[249px] text-[24px] font-bold leading-[36px] text-color text-justify">lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod.</h1>
+                    <a href="#" class="absolute top-[60%] bg-[#FFFFFF80] text-color text-[16px] font-semibold transition-all duration-300 py-[13px] px-[30px]">Learn More</a>
+                </div>
+             </div>
+             <a href="#" class="flex justify-end items-center mt-[29px]">MORE FROM THE BLLOG <i class="fa-solid fa-chevron-right ml-[4px]"></i></a>
+        </div>
+    </section>
+    <!-- ================= blog section end here =================== -->
+
+
+
+    <!-- ================= map section start here =================== -->
+    <div class="w-[1540px] h-[450px]">
+        <img class="w-[100%] h-[100%]  object-cover object-center" src="./images/Maps.png" alt="Not Found">
+    </div>
+    <!-- ================= map section end here =================== -->
+
+    <!-- ================= contact section start here =================== -->
+    <section class="bg-[#F40404] py-[48px] mt-[5px]">
+        <div class="max-w-container mx-auto">
+            <div class="flex flex-col md:flex-row justify-between gap-y-[20px] md:gap-y-0 items-center px-4">
+               <h1 class=" md:w-[959px] text-[18px] md:text-[36px] font-bold text-color">Want to join as member branch in your area?</h1>
+               <a href="#" class=" bg-[transparent] border-2 border-color-500 text-color text-[16px] font-semibold  py-[13px] px-[30px] hover:bg-color hover:text-[#000] transition-all duration-300 rounded-[10px]">Contact</a>
+            </div>
+        </div>
+    </section>
+    <!-- ================= contact section end here =================== -->
+
+    <!-- ================= footer section start here =================== -->
+    <section class="bg-footerbg  pt-[140px]">
+           <div class="max-w-container mx-auto">
+            <div class="flex flex-col md:flex-row gap-y-[100px]  md:gap-x-[110px] items-center">
+
+                <div>
+                    <img src="./images/Logo.png" alt="Not Found">
+
+                    <div class="flex flex-col mt-[33px]">
+                        <a  class="flex items-center text-color gap-x-[5px] text-[14px]" href="#"><i class="fa-solid fa-envelope"></i>mail@yourcompany.com</a>
+                        <a href="#" class="flex items-center text-color gap-x-[5px] text-[14px]  mt-[15px]"><i class="fa-solid fa-phone-volume"></i>+896 120 5889 (Toll free)</a>
+                        <a href="#" class="flex items-center text-color gap-x-[5px] text-[14px] mt-[15px]"><i class="fa-solid fa-envelope"></i>101 Baker Street, New York, USA, 12345</a>
+                    </div>
+
+                    <div class="flex mt-[35px] gap-x-[12px] items-center">
+                        <i class="fa-brands fa-facebook bg-navbar text-color px-[6px] py-[7px] rounded-[50%]"></i>
+                        <i class="fa-brands fa-twitter bg-navbar text-color px-[6px] py-[7px] rounded-[50%]"></i>
+                        <i class="fa-brands fa-linkedin bg-navbar text-color px-[6px] py-[7px] rounded-[50%]"></i>
+                        <i class="fa-brands fa-instagram bg-navbar text-color px-[6px] py-[7px] rounded-[50%]"></i>
+                    </div>
+
+                </div>
+
+                <div class="flex flex-col ">
+
+                  <h1 class="text-color text-[16px] font-bold leading-[24px] w-[156px] mb-[21px]">Company</h1>
+
+                  <a class="text-color mb-[15px] text-[14px] font-normal text-[14px] leading-[21px]" href="#">Home</a>
+                  <a class="text-color mb-[15px] text-[14px] font-normal text-[14px] leading-[21px]" href="#">About</a>
+                  <a class="text-color mb-[15px] text-[14px] font-normal text-[14px] leading-[21px]" href="#">Services</a>
+                  <a class="text-color text-[14px] font-normal text-[14px] leading-[21px]" href="#">Gallery</a>
+                </div>
+
+                <div class="flex flex-col">
+                    <h1 class="text-color text-[16px] font-bold leading-[24px] w-[156px] mb-[21px]">Others</h1>
+
+                    <a class="text-color mb-[15px] text-[14px] font-normal text-[14px] leading-[21px]"  href="#">Blog</a>
+                    <a class="text-color mb-[15px] text-[14px] font-normal text-[14px] leading-[21px]"  href="#">Contact</a>
+                    <a class="text-color mb-[15px] text-[14px] font-normal text-[14px] leading-[21px]"  href="#">Terms & Conditions</a>
+                    <a class="text-color mb-[15px] text-[14px] font-normal text-[14px] leading-[21px]"  href="#">Privacy Policy</a>
+                </div>
+
+                <div class="mt-[-90px]">
+                    <h1 class="text-color text-[16px] font-bold leading-[24px] w-[156px] mb-[21px]">Certificate</h1>
+
+                    <div class="flex items-center gap-x-[5px]">
+                        <img src="./images/Cert1.png" alt="Not Found">
+                        <img src="./images/Cert2.png" alt="Not Found">
+                    </div>
+                </div>
+            </div>
+           </div>
+           <div class="bg-[#282828] py-[43px] mt-[170px] px-4 md:px-0 ">
+              <div class="max-w-container mx-auto">
+                    <h1 class="w-[509px] text-[#6C6C6C] text-[16px] font-normal leading-[24px]">© Copyright 2022 by AltDesain Studio – All right reserved.</h1>
+              </div>
+           </div>
+    </section>
+    <!-- ================= footer section end here =================== -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="tailwind.config.js"></script>
+</body>
+</html>
